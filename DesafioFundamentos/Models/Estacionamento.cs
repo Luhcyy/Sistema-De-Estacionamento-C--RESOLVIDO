@@ -44,7 +44,7 @@ namespace DesafioFundamentos.Models
                 // TODO: Realizar o seguinte cálculo: "precoInicial + precoPorHora * horas" para a variável valorTotal                
                 // *IMPLEMENTE AQUI*
                 int horas = int.Parse(Console.ReadLine());
-                decimal valorTotal = precoInicial + precoPorHora; 
+                decimal valorTotal = precoInicial * precoPorHora; 
                 
                 
                 
